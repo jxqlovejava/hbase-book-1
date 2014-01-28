@@ -39,6 +39,19 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <repositories>   
+        <repository>
+            <id>phoenix-github</id>
+            <name>Phoenix Github Maven</name>
+            <url>https://raw.github.com/forcedotcom/phoenix/maven-artifacts/releases</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -66,6 +79,10 @@
             <artifactId>hadoop-core</artifactId>
             <version>0.20.2</version>
         </dependency>
-            
+        <dependency>
+            <groupId>com.salesforce</groupId>
+            <artifactId>phoenix</artifactId>
+            <version>2.2.1</version>
+        </dependency>
     </dependencies>
 </project>
