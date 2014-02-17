@@ -1,4 +1,4 @@
-package com.hi.hbase.book;
+package com.elephantscale.hbase.book.common;
 
 import java.text.SimpleDateFormat;
 import java.util.Random;

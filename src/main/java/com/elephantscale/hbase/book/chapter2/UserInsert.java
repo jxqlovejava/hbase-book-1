@@ -1,4 +1,4 @@
-package com.hi.hbase.book.chapter2;
+package com.elephantscale.hbase.book.chapter2;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
