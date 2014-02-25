@@ -15,11 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with HDPP.  If not, see <http://www.gnu.org/licenses/>.
 
-# generate_users.sh  Run java code to generate SQL statements to insert users into HBase
+# create_table_users.sh  
 #
-# The script presupposes that HDPP project built with dependencies, with the following command
-# mvn clean assembly:single
-# parameters:   $1:   TODO
-# parameters:   $2:   TODO
 
-java -classpath ../target/cassandra-labs-1.0-SNAPSHOT-jar-with-dependencies.jar com.hi.cassandra.video.GenerateUsers $1 $2
+./sqlline.sh localhost $HBASE_BOOK_HOME/scripts/chapter3/create_table_users.sql

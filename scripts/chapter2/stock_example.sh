@@ -19,5 +19,7 @@
 #
 # parameters:   $1:   None
 # The script presupposes the Phoenix files extracted to the right places, and is run from the 'bin' directory
+# It also assumes that you have set the environmental variable HBASE_BOOK_HOME to point to the directory
+# where you installed the HDPP.
 
-./sqlline.sh localhost ../examples/stock_symbol.sql
+./sqlline.sh localhost $HBASE_BOOK_HOME/scripts/chapter2/stock_symbol.sql
